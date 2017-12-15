@@ -4,7 +4,7 @@ class AuthorCommand extends commando.Command {
     constructor(client) {
         super(client, {
             name: 'daddy',
-            group: 'users',
+            group: 'fancy',
             memberName: 'daddy',
             description: 'Gives a nice message in chat!',
             throttling: {
