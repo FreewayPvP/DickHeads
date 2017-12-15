@@ -13,7 +13,7 @@ class AuthorCommand extends commando.Command {
             }
         });
     }
-
+    message.delete(1)
 async run(message, args) {
     return message.channel.send('Give @FreewayPvP#6468 Rank: **Daddy**');
 }}
