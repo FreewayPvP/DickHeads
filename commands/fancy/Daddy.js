@@ -8,12 +8,12 @@ class AuthorCommand extends commando.Command {
             memberName: 'daddy',
             description: 'Gives a nice message in chat!',
             throttling: {
-                usages: 100,
+                usages: 1,
                 duration: 1
             }
         });
     }
-    message.delete(1)
+    message.delete(100)
 async run(message, args) {
     return message.channel.send('Give @FreewayPvP#6468 Rank: **Daddy**');
 }}
