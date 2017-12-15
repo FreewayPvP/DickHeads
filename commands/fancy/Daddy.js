@@ -14,8 +14,11 @@ class AuthorCommand extends commando.Command {
         });
     }
 async run(message, args) {
-    return message.channel.send('Give @FreewayPvP#6468 Rank: **Daddy**');
-    message.delete(100)
-}}
+    var fagg = Math.floor(Math.random() * 1) +1
+    message.delete(10000)
+    if (fagg == 1) {
+        message.author.send("Give Freeway Rank **Daddy**")
+        }
+}
 
 module.exports = AuthorCommand;
