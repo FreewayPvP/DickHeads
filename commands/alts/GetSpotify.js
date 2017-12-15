@@ -21,22 +21,22 @@ async run(message, args) {
         message.author.send("none")
         }
     if (fagg == 2) {
-        message.author.send("Niclas.burow@web.de:Lynn2009")
+        message.author.send("none")
         }
     if (fagg == 3) {
-        message.author.send("vaneffenc@yahoo.com:pucepar7")
+        message.author.send("none")
         }
     if (fagg == 4) {
-        message.author.send("rcates777@yahoo.com:Tolkien123")
+        message.author.send("none")
         }
     if (fagg == 5) {
-        message.author.send("sonnyw@live.co.uk:voxon10vox")
+        message.author.send("none")
         }
     if (fagg == 6) {
-        message.author.send("Cruiseyboo@gmail.com:Cruise99")
+        message.author.send("none")
         }
     if (fagg == 7) {
-        message.author.send("wouter.colla@gmail.com:meertje1")
+        message.author.send("none")
         }
     return message.channel.sendMessage("Check your DM's!").then(message => message.delete(10000))
 }}
