@@ -21,10 +21,6 @@ client.registry
 .registerDefaultTypes()
 .registerGroups([
 		['alts', 'Command Group']
-		['cool', 'Command Group']
-		['fancy', 'Command Group']
-		['games', 'Command Group']
-		['fun', 'Command Group']
 ])
 .registerDefaultGroups()
 .registerDefaultCommands({ help: false })
