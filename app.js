@@ -6,6 +6,10 @@ const client = new Commando.Client({
 
 const config = require("./config.json");
 
+client.on('ready', () => {
+  console.log(`Hey, I Just Finished Starting up! You can now use me in Discord!`);
+});
+
 client.on("ready", () => {
   console.log(`Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`); 
 	client.user.setGame(`with @FreewayPvP#6468`);
@@ -22,7 +26,8 @@ client.registry
 		['fun', 'Fun Commands']
 	])
 
-	.registerDefaults()
+	.registerDefaultGroups()
+	.registerDefaultCommands({ help: false })
 	.registerCommandsIn(path.join(__dirname, 'commands'));
 
 client.login('Mzg4NzA2MDUzNjQ0MzUzNTM4.DQ1Rfw.qCOmFwoh8tw3Cz8OBlJCOm1LQHc');
